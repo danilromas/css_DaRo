@@ -24,3 +24,23 @@
 .error {
 	color: darkblue;
 }
+
+#block1 { /*В чем разница между классом и id? Классы в основном делают если нужно что-то покрасить многократно
+                    а id чтобы выделить уникальность для кода */
+	color: red; 
+}
+#block2 {
+	color: green;
+}
+
+#elem1 {
+    color: red;
+}
+
+#elem2 {
+    color: green;
+}
+
+#elem3 {
+    color: blue;
+}
