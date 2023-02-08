@@ -48,3 +48,19 @@
 .eee.zzz.ccc {
 	color: red;
 }
+
+.bbb.zzz {
+	color: green;
+}
+
+h2.bbb.zzz {
+	color: orange;
+}
+
+#elem.bbb {
+	color: yellow;
+}
+
+#elem.bbb.zzz {
+	color: brown;
+}
