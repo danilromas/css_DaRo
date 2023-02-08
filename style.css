@@ -64,18 +64,14 @@
 	color: red;
 }
 
-#block h1.eee, #block h2.zzz {
-	text-align: center;
-	font-size: 30px;
-}
-#block h2.zzz {
-	font-size: 20px;
+div p {
+	color:red;
 }
 
-.xxx .kkk, .eee h2.zzz, #eee h2{
-	text-align: center;
+div h2 {
+	color:green;
 }
 
-.eee h2.zzz, .xxx {
-	text-align: center;
+#block1 p {
+    color:brown;
 }
