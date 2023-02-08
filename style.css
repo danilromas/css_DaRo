@@ -80,10 +80,6 @@ div h2 {
     color: red;
 }
 
-li + #elem1 {
-    color:brown;
-}
-
-.elem2 + li {
-    color:brown;
+#elem1 ~ li{
+    color: red;
 }
