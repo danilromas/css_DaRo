@@ -1,0 +1,26 @@
+
+.large {
+	font-size: 30px;
+}
+.small {
+	font-size: 20px;
+}
+
+.big {
+    font-size: 100px;
+}
+
+.fontstyle{
+    font-style: italic;
+}
+
+.redos {
+    color: red;
+}
+
+.success {
+	color: purple;
+}
+.error {
+	color: darkblue;
+}
