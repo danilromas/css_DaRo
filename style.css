@@ -33,14 +33,14 @@
 	color: green;
 }
 
-#elem1 {
+#elem h2 {
+    color : green;
+}
+
+#elem li.text {
     color: red;
 }
 
-#elem2 {
-    color: green;
-}
-
-#elem3 {
-    color: blue;
+#elem p.text{
+    color:red;
 }
