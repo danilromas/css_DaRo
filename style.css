@@ -80,6 +80,6 @@ div h2 {
     color: red;
 }
 
-#elem1 ~ li{
+main * p {
     color: red;
 }
