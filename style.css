@@ -83,3 +83,18 @@ div h2 {
 main * p {
     color: red;
 }
+p.title{
+    color: red;
+}
+
+p[title = 'привет']{
+    color: red;
+}
+
+a[href^="http://"]{
+    color: red;
+}
+
+a[href*=".html"] {
+    color:red;
+}
