@@ -78,12 +78,12 @@ div h2 {
 
 .fff.bbb h2{
     color: red;
-
 }
 
-p {
-	color: red;
+li + #elem1 {
+    color:brown;
 }
-.text {
-	color: green; /* применится этот цвет */
+
+.elem2 + li {
+    color:brown;
 }
