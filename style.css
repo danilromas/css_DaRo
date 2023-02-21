@@ -126,3 +126,17 @@ a.ccs:hover {
 #di_3 li:not(:first-child, :last-child){
 	color: red;
 }
+
+#elem_1 {
+	width: 300px;
+	height: 100px;
+	background-color: rgb(104, 118, 248); 
+}
+#elem_2{
+	width: 300px;
+	height: 100px;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	background-color: rgb(119, 253, 137); 
+}
