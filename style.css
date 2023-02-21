@@ -91,28 +91,29 @@ p[title = 'привет']{
     color: red;
 }
 
-a[href^="http://"]{
-    color: red;
-}
-
-a[href*=".html"] {
-    color:red;
-}
-
-a:link {
-	color: blue;
-	text-decoration: none;
-}
-a:visited {
-	color: blue;
-	text-decoration: none;
+a {
+	color: red;
 }
 a:hover {
-	text-decoration: underline;
-	color: red;
-
+    text-decoration: none;
 }
-a:active {
-	color: blue;
+a.ccs {
+    color: red;
+    }
+a.ccs:hover {
+    text-decoration: none;
+}
+#block a.zzz {
+	color: red;
+}
+#block a.zzz:hover {
 	text-decoration: none;
 }
+
+.block a.zzz {
+	color: red;
+}
+.block a.zzz:hover {
+	text-decoration: none;
+}
+
