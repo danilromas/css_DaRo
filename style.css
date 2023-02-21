@@ -185,4 +185,8 @@ a.ccs:hover {
 	width: 600px;
 	border: 10px solid red;
 	text-align: justify;
+    padding-top:    30px; /* верх */
+	padding-right:  40px; /* право */
+	padding-bottom: 50px; /* низ */
+	padding-left:   60px; /* лево */
 }
