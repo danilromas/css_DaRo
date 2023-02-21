@@ -116,4 +116,15 @@ a.ccs:hover {
 .block a.zzz:hover {
 	text-decoration: none;
 }
-
+h2:last-of-type {
+	color: red;
+}
+h2:nth-of-type(2) {
+	color: blue;
+}
+h2:nth-last-of-type(2) {
+	color: blue;
+}
+a:only-of-type {
+	color: green;
+}
