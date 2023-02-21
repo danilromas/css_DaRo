@@ -98,3 +98,21 @@ a[href^="http://"]{
 a[href*=".html"] {
     color:red;
 }
+
+a:link {
+	color: blue;
+	text-decoration: none;
+}
+a:visited {
+	color: blue;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: red;
+
+}
+a:active {
+	color: blue;
+	text-decoration: none;
+}
