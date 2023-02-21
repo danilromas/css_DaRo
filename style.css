@@ -180,53 +180,9 @@ a.ccs:hover {
 	list-style-type: circle;
 }
 
-#grandparent {
-	width: 340px;
-	border: 10px dashed red;
-}
-#parent {
-	width: 200px;
-	border: 1px solid red;
-}
-#child {
-	margin-top:    50px;
-	margin-right:  50px;	
-    margin-bottom: 80px;
-	margin-left:   50px;
-
-	height: 100px;
-	border: 1px solid green;
-}
-#child2 {
-	margin-top:    20px;
-	margin-right:  70px;	margin-bottom: 20px;
-	margin-left:   70px;
-
-	height: 100px;
-	border: 1px solid green;
-	height: 50px;
-	border: 1px dashed blue;
-	margin: 20px 50px;
-}
-
-
-#parent3{
-	width: 200px;
-	border: 1px solid orange;
-}
-#child3 {
-	height: 60px;
-	border: 1px dashed blue;
-	margin: 80px 50px 20px;
-}
-
-
-#parent4{
-	width: 300px;
-	border: 1px solid orange;
-}
-#child4 {
-	height: 60px;
-	border: 1px dashed blue;
-	margin: 30px 70px 50px;
+#elem_none {
+	padding: 15px 20px;
+	width: 600px;
+	border: 10px solid red;
+	text-align: justify;
 }
