@@ -179,3 +179,18 @@ a.ccs:hover {
 #two ul {
 	list-style-type: circle;
 }
+
+#grandparent {
+	width: 340px;
+	border: 10px dashed red;
+}
+#parent {
+
+	border: 5px dashed green;
+	margin: 30px;
+}
+#child {
+	height: 200px;
+	border: 5px solid red;
+	margin: 30px;
+} 
