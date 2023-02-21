@@ -173,3 +173,9 @@ a.ccs:hover {
 	width: 200px;
 	height: 300px;
 }
+#one ul {
+	list-style-type: square;
+}
+#two ul {
+	list-style-type: circle;
+}
