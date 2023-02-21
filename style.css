@@ -135,6 +135,7 @@ a.ccs:hover {
 	border-bottom: 2px solid green;
     border: 1px solid green;
 	border-radius: 25%;
+    background-image: url(bg.png);
 }
 
 #elem_1 {
@@ -145,6 +146,7 @@ a.ccs:hover {
 	height: 100px;
 	background-color: rgb(32, 156, 15);
     border-radius: 50%;
+    
 }
 #elem_2 {
 	border-width: 14px;
