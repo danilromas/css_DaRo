@@ -173,8 +173,8 @@ a.ccs:hover {
 	width: 200px;
 	height: 300px;
 }
-#one ul {
-	list-style-type: square;
+#one ol {
+        list-style-type: upper-alpha;
 }
 #two ul {
 	list-style-type: circle;
