@@ -133,7 +133,8 @@ a.ccs:hover {
 	border-right: 3px solid black;
 	border-left: 2px solid purple;
 	border-bottom: 2px solid green;
-    border-radius: 10px;
+    border: 1px solid green;
+	border-radius: 5px 10px;
 }
 
 #elem_1 {
@@ -151,7 +152,7 @@ a.ccs:hover {
 	border-color: red;
 	width: 300px;
 	height: 100px;
-    border-radius: 10px;
+    border-radius: 10px 10px 13px 20px;
 }
 
 #elem_3 {
