@@ -116,15 +116,13 @@ a.ccs:hover {
 .block a.zzz:hover {
 	text-decoration: none;
 }
-h2:last-of-type {
+#di_1 li:not(.elem){
+	color: white;
+}
+#di_2 li:not(:first-child){
+	color: blue;
+}
+
+#di_3 li:not(:first-child, :last-child){
 	color: red;
-}
-h2:nth-of-type(2) {
-	color: blue;
-}
-h2:nth-last-of-type(2) {
-	color: blue;
-}
-a:only-of-type {
-	color: green;
 }
