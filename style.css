@@ -210,3 +210,6 @@ a.ccs:hover {
 div {
 	border: 1px solid red;
 }
+span {
+	border: 10px solid green;
+}
