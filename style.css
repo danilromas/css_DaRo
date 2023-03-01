@@ -213,3 +213,29 @@ div {
 span {
 	border: 10px solid green;
 }
+
+b {
+	border: 1px solid red;
+	width: 100px;
+	height: 100px;
+}
+h2 {
+	border: 1px solid red;
+	width: 100px;
+	height: 100px;
+}
+h3 {
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+}
+i {
+	border: 1px solid green;
+	width: 100px;
+	height: 100px;
+}
+a {
+	border: 1px solid greenyellow;
+	width: 100px;
+	height: 100px;
+}
