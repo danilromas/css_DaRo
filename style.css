@@ -208,7 +208,10 @@ a.ccs:hover {
 }
 
 div {
+	width: 100px;
+	height: 100px;
 	border: 1px solid red;
+	display: inline-block;
 }
 a {
 	border: 1px solid red;
