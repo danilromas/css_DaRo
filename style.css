@@ -206,3 +206,7 @@ a.ccs:hover {
 	border: 10px solid red;
 	box-sizing: border-box;
 }
+
+div {
+	border: 1px solid red;
+}
