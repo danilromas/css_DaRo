@@ -223,3 +223,9 @@ div {
 	border: 1px solid red;
 	text-align: right;
 }
+.child {
+	display: inline-block;
+	margin: 5px 0;
+	padding: 10px;
+	border: 1px solid green;
+}
