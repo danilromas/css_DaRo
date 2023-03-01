@@ -199,8 +199,10 @@ a.ccs:hover {
 	text-align: justify;
 }
 #elem3 {
-	padding: 10px 20px 30px;
-
-	width: 300px;
-	border: 1px solid red;
+	width: 100px;
+	height: 100px;
+	background: #eb7171;
+	padding: 25px;
+	border: 10px solid red;
+	box-sizing: border-box;
 }
