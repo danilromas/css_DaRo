@@ -191,22 +191,6 @@ a.ccs:hover {
 	padding-left:   60px; /* лево */
 }
 
-#elem2 {
-	padding: 80px 40px;
-
-	width: 300px;
-	border: 1px solid red;
-	text-align: justify;
-}
-#elem3 {
-	width: 100px;
-	height: 100px;
-	background: #eb7171;
-	padding: 25px;
-	border: 10px solid red;
-	box-sizing: border-box;
-}
-
 div {
 	width: 100px;
 	height: 100px;
@@ -229,4 +213,93 @@ div {
 	margin: 5px 0;
 	padding: 10px;
 	border: 1px solid green;
+}
+
+#elem1 {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid red;
+}
+#elem2 {
+	position: absolute;
+	top: 90px;
+	left: 90px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid green;
+}
+#elem3 {
+	position: absolute;
+	top: 160px;
+	left: 160px;
+
+	width: 50px;
+	height: 50px;
+	border: 1px solid blue;
+}
+
+#elem4 {
+	position: absolute;
+	top: 230px;
+	left: 20px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid red;
+}
+
+#elem5 {
+	position: absolute;
+	top: 230px;
+	left: 90px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid green;
+}
+#elem6 {
+	position: absolute;
+	top: 230px;
+	left: 160px;
+
+	width: 50px;
+	height: 50px;
+	border: 1px solid blue;
+}
+
+#elem7 {
+	position: absolute;
+	top: 320px;
+	left: 20px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid red;
+}
+#elem8 {
+	position: absolute;
+	top: 355px;
+	left: 55px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid green;
+}
+#elem9 {
+	position: absolute;
+	top: 390px;
+	left: 90px;
+
+	width: 50px;
+	height: 50px;
+	border: 1px solid blue;
+}
+
+
+#elem10 {
+	position: absolute;
+	top: 420px;
+	left: 20px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid red;
 }
