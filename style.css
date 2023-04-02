@@ -213,15 +213,14 @@ div {
 	border: 1px solid red;
 	display: inline-block;
 }
-.parent1 {
-	padding: 10px 0;
-	border: 1px solid red;
-	text-align: right;
+.parent {
+	display: flex; 
+	width: 500px;
+	height: 200px;
 }
-.parent2 {
-	padding: 10px 10px;
-	border: 1px solid red;
-	text-align: right;
+.parent1 {
+	display: flex; 
+	width: 500px;
 }
 .child {
 	display: inline-block;
