@@ -155,5 +155,11 @@ p{
 }
 img {
     float: left;
-    width: 250px;
+	opacity: 0.5;
+    width: 100px;
+}
+p {
+    margin-left: 30px;
+    padding-left: 30px;
+    border: 1px solid green;
 }
