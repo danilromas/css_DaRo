@@ -153,3 +153,7 @@ p{
     bottom: 70px;
     left: 98px;
 }
+img {
+    float: left;
+    width: 250px;
+}
