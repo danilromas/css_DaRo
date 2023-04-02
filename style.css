@@ -1,220 +1,4 @@
 
-.large {
-	font-size: 30px;
-}
-.small {
-	font-size: 20px;
-}
-
-.big {
-    font-size: 100px;
-}
-
-.fontstyle{
-    font-style: italic;
-}
-
-.redos {
-    color: red;
-}
-
-.success {
-	color: purple;
-}
-.error {
-	color: darkblue;
-}
-
-#block1 { /*В чем разница между классом и id? Классы в основном делают если нужно что-то покрасить многократно
-                    а id чтобы выделить уникальность для кода */
-	color: red; 
-}
-#block2 {
-	color: green;
-}
-
-#elem h2 {
-    color : green;
-}
-
-#elem li.text {
-    color: red;
-}
-
-#elem p.text{
-    color:red;
-}
-
-.eee.zzz.ccc {
-	color: red;
-}
-
-#block h1, #block h2{
-	text-align: center;
-}
-
-#block h1, #block h2, #block h3 {
-	text-align: center;
-}
-#block h2 {
-	color: blue;
-}
-#block h3 {
-	font-size: 16px;
-	color: red;
-}
-
-div p {
-	color:red;
-}
-
-div h2 {
-	color:green;
-}
-
-#block1 p {
-    color:brown;
-}
-
-.fff.bbb h2{
-    color: red;
-}
-
-main * p {
-    color: red;
-}
-p.title{
-    color: red;
-}
-
-p[title = 'привет']{
-    color: red;
-}
-
-a {
-	color: red;
-}
-a:hover {
-    text-decoration: none;
-}
-a.ccs {
-    color: red;
-    }
-a.ccs:hover {
-    text-decoration: none;
-}
-#block a.zzz {
-	color: red;
-}
-#block a.zzz:hover {
-	text-decoration: none;
-}
-
-.block a.zzz {
-	color: red;
-}
-.block a.zzz:hover {
-	text-decoration: none;
-}
-#di_1 li:not(.elem){
-	color: white;
-}
-#di_2 li:not(:first-child){
-	color: blue;
-}
-
-#di_3 li:not(:first-child, :last-child){
-	color: red;
-}
-#elem_0 {
-	width: 300px;
-	height: 100px;
-    border-top: 3px solid blue;
-	border-right: 3px solid black;
-	border-left: 2px solid purple;
-	border-bottom: 2px solid green;
-    border: 1px solid green;
-	border-radius: 25%;
-    background-image: url(bg.png);
-}
-
-#elem_1 {
-	border-width: 3px;
-	border-style: ridge;
-	border-color: yellow;
-	width: 300px;
-	height: 100px;
-	background-color: rgb(32, 156, 15);
-    border-radius: 50%;
-    
-}
-#elem_2 {
-	border-width: 14px;
-	border-style: dotted;
-	border-color: red;
-	width: 300px;
-	height: 100px;
-    border-radius: 100%;
-}
-
-#elem_3 {
-	border-width: 2px;
-	border-style: dashed;
-	border-color: black;
-	width: 400px;
-	height: 200px;
-    border-radius: 10px;
-}
-
-#elem_4 {
-	border-width: 18px;
-	border-style: double;
-	border-color: green;
-	width: 200px;
-	height: 300px;
-}
-#one ol {
-        list-style-type: upper-alpha;
-}
-#two ul {
-	list-style-type: circle;
-}
-
-#elem_none {
-	padding: 15px 20px;
-	width: 600px;
-	border: 10px solid red;
-	text-align: justify;
-    padding-top:    30px; /* верх */
-	padding-right:  40px; /* право */
-	padding-bottom: 50px; /* низ */
-	padding-left:   60px; /* лево */
-}
-
-div {
-	width: 100px;
-	height: 100px;
-	border: 1px solid red;
-	display: inline-block;
-}
-.parent {
-	display: flex; 
-	width: 500px;
-	justify-content: center;
-	height: 400px;
-}
-.parent1 {
-	display: flex; 
-	width: 500px;
-	justify-content: center;
-}
-.child {
-	display: inline-block;
-	margin: 5px 0;
-	padding: 10px;
-	border: 1px solid green;
-}
-
 #elem1 {
 	width: 100px;
 	height: 100px;
@@ -238,4 +22,114 @@ div {
 	position: relative;
 	bottom: 80px;
 	left: 130px;
+}
+
+#parent {
+	position: relative;
+	width: 500px;
+	height: 300px;
+	margin: 0 auto;
+	background-color: rgb(0, 233, 155);
+}
+#child {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+
+	width: 110px;
+	height: 110px;
+	background-color: white;
+}
+#child2 {
+	position: absolute;
+	top: 150px;
+	left: 350px;
+
+	width: 110px;
+	height: 110px;
+	background-color: white;
+}
+
+.light {
+    width: 170px;
+    height: 390px;
+    margin: auto;
+    position: relative;
+	border: 2px solid black;
+}
+.lightred {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+.lightyellow {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: absolute;
+    top: 150px;
+    left: 40px;
+}
+.lightgreen {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+    top: 250px;
+    left: 40px;
+}
+
+
+.face {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: rgb(64, 230, 152);
+
+    position: relative;
+}
+.facefirst {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+
+    top: 50px;
+    left: 60px;
+}
+.facesecond{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+
+    position: absolute;
+    top: 50px;
+    right: 60px;
+}
+.facethird {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+
+    position: absolute;
+    top: 130px;
+    right: 130px;
+}
+.facefourth {
+    width: 110px;
+    height: 10px;
+    background-color: white;
+
+    position: absolute;
+    bottom: 70px;
+    left: 98px;
 }
